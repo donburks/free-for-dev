@@ -43,9 +43,9 @@ Table of Contents
    * [Payment / Billing Integration](#payment--billing-integration)
    * [Other Packs](#other-packs)
    * [Docker Related](#docker-related)
-     * [Alternate container hosting](#alternate-container-hosting)
+   * [Alternate container hosting](#alternate-container-hosting)
    * [Vagrant Related](#vagrant-related)
-     * [Vagrant box indexes](#vagrant-box-indexes)
+   * [Vagrant box indexes](#vagrant-box-indexes)
    * [Data mining](#data-mining)
 
 ## Source Code Repos
@@ -161,6 +161,7 @@ Table of Contents
   * http://newrelic.com/ - Free with 24 hour data retention
   * https://nodequery.com/ - Free basic server monitor up to 10 servers
   * https://www.pingdom.com/free/ - 1 site free
+  * http://www.watchsumo.com/ - Free website uptime monitoring
   * https://www.opsgenie.com/ - Alert management with mobile push. 600 free alerts for 2 users a month
   * https://www.runscope.com/ - Monitor and log API usage.  Single user 10,000 request/month free
   * http://www.circonus.com/ - Free for 20 metrics
@@ -203,7 +204,7 @@ Table of Contents
   * https://mailtrap.io - fake SMTP server for development, free plan with 1 inbox, 50 messages, no team members, 2 emails/sec, no forward rules
   * https://mailstache.io - 4 Mailboxes @ 1GB each for up to 2 custom domains.
   * https://postmarkapp.com - First 25,000 emails are free
-  * https://www.zoho.com/mail/ - Free Email management and collaboration for upto 10 users.
+  * https://www.zoho.com/mail/ - Free Email management and collaboration for up to 10 users.
   * http://moosend.com/ — Mailing list management service. Free account for 6 months for startups.
 
 ## CDN and Protection
@@ -225,10 +226,9 @@ Table of Contents
   * http://hpcloud.com/ - $300 credit over 90 days.
   * https://appharbor.com/ - A .Net PaaS that provides 1 free worker
   * https://www.heroku.com/ - Host your apps in the cloud, free for single process apps
-  * https://www.firebase.com/ - Build realtime apps, free plan has 50 Max Connections, 5 GB Data Transfer, 100 MB Data Storage.
-1 GB Hosting Storage and 100 GB Hosting Transfer.
+  * https://www.firebase.com/ - Build realtime apps, free plan has 50 Max Connections, 5 GB Data Transfer, 100 MB Data Storage. 1 GB Hosting Storage and 100 GB Hosting Transfer.
   * https://bluemix.net/ - IBM PaaS with a monthly free allowance
-  * https://www.openshift.com/ - RedHat OpenShift offers 3 free hosted apps
+  * https://www.openshift.com/ - Red Hat PaaS, free tier provides three small gears (each with 512MB memory, 1GB storage). {[Browse one-click deployments](https://hub.openshift.com/)}.
   * https://scalingo.com - Free Tier, up to 3 apps, 1 container each, combined with data store addons free tier
   * https://algorithmia.com - Host algorithms for free - includes 10,000 credits (seconds of on-demand execution time) free
   * https://bigml.com/ - Hosted machine learning algorithms. Unlimited free tasks for development, limit of 16MB data per task
@@ -236,15 +236,16 @@ Table of Contents
   * http://www.outsystems.com/ - Enterprise web development PaaS for on-premise or cloud, free "personal environment" offering allows for unlimited code and up to 1GB database.
   * https://platform.telerik.com/ - Build and deploy mobile applications using Javascript. Free plan has 100 MB Data Storage, 1GB File storage, 5GB Bandwidth, 1 million push notifications for BaaS offering, 100 active devices for analytics.
   * http://scn.sap.com/docs/DOC-56411 - The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1GB structured, 1GB unstructured, 1GB of Git data and allow you to run HTML5, Java and HANA XS apps.
+  * https://www.mendix.com/ - Rapid Application Development for Enterprises - Unlimited number of free sandbox environments supporting 10 users, 100MB of files and 100MB database storage each.
 
 ## BaaS
 
-  * http://apigee.com/docs/api-baas (product docs), http://apigee.com/docs/developer-vs-edge (registration) - Unlimited trial includes NoSQL data store with 25GB of storage, user and permission managemant, geolocation, 10,000,000 push notifications per month, remote configuration, beta and A/B split testing, APM, fully API driven.  Accessible and manageable via UI, SDK, and API.
+  * http://apigee.com/docs/api-baas (product docs), http://apigee.com/docs/developer-vs-edge (registration) - Unlimited trial includes NoSQL data store with 25GB of storage, user and permission management, geolocation, 10,000,000 push notifications per month, remote configuration, beta and A/B split testing, APM, fully API driven.  Accessible and manageable via UI, SDK, and API.
   * http://appacitive.com/ - Mobile backend, free for the first 3 months with 100k API calls,Push notifications.
-  * https://bip.io/ - A web-automation platform for easily connecting web services. Fully open GPLv3 to power the backend of your open-source project.  Commerical OEM License available.
+  * https://bip.io/ - A web-automation platform for easily connecting web services. Fully open GPLv3 to power the backend of your open-source project.  Commercial OEM License available.
   * https://www.blockspring.com/ - Cloud functions. Free for 5 million runs a month.
   * https://www.contentful.com - Content as a Service. Content Management & Delivery APIs in the cloud. 3 users, 3 spaces (repositories) and 1,000,000 API requests per month for free.
-  * http://www.kinvey.com - Mobile backend, starter plan has unlimited requests per second, with 2 GB of data storage, as well as push notifications for up 5,000,000 unique recepients. Enterprise application support.
+  * http://www.kinvey.com - Mobile backend, starter plan has unlimited requests per second, with 2 GB of data storage, as well as push notifications for up 5,000,000 unique recipients. Enterprise application support.
   * http://konacloud.io Web and Mobile Backend as a Service, with 5 GB free account.
   * https://layer.com/ - The full-stack building block for communications.
   * https://www.parse.com - Mobile backends, free plan has 30 requests per second, with 20 GB of file and database storage, as well as push notifications for up to 1,000,000 unique recipients.
@@ -254,7 +255,7 @@ Table of Contents
 
   * https://www.simplybuilt.com - SimplyBuilt offers free website building and hosting for open source projects (http://www.simplybuilt.com/explore/free-websites-for-open-source-projects). Simple alternative to GitHub Pages.
   * http://www.devport.co - Turn GitHub projects, Apps, and websites into a personal developer portfolio.
-  * https://www.netlify.com - Builds, deploy and hosts static site or app, free for 100 MB data and 1 GB bandwith.
+  * https://www.netlify.com - Builds, deploy and hosts static site or app, free for 100 MB data and 1 GB bandwidth.
 
 ## IaaS
 
@@ -264,8 +265,10 @@ Table of Contents
   * https://cloud.google.com/compute/ - Google Compute Engine gives $300 over 60 days
   * https://cloud.google.com/container-engine/ - Google Container Engine for run Docker containers(Alpha). Pricing: same of Google Compute Engine.
   * https://nsone.net/ - Data Driven DNS, automatic traffic management, 1M free Queries
+  * https://developer.rackspace.com/signup/ - Get $50/month for 12 months to use toward cloud services.
 
 ## DBaaS
+
    * https://mongolab.com/ - MongoDB as a service (500mb free)
    * https://cloudant.com/ - Hosted database from IBM, free if usage is below $50/month
    * https://realm.io - Free to use even for commercial projects, under Apache 2.0 License
@@ -277,8 +280,10 @@ Table of Contents
    * https://import.io/ - Easily turn websites into APIs, completely free for life.
    * https://redsmin.com/ - Online real-time monitoring and administration service for Redis, 1 Redis instance free
    * http://graphstory.com/ - GraphStory offers Neo4j (a Graph Database) as a service
+   * http://www.elephantsql.com/ - PostgreSQL as a service (20mb free)
 
 ## STUN, WebRTC, Web Socket Servers and other Routers
+
    * https://pusher.com. Hosted Web Sockets broker. Free for up to 20 simultaneous connections and 100k messages a day.
    * stun:stun.l.google.com:19302 - Google STUN
    * stun:global.stun.twilio.com:3478?transport=udp - Twilio STUN
@@ -286,6 +291,7 @@ Table of Contents
    * https://ngrok.com/ - expose locally running servers over a tunnel to a public URL
 
 ## Issue tracking / Project management
+
    * https://www.pivotaltracker.com/community/public-projects - Pivotal Tracker. Free for public projects.
    * https://www.atlassian.com/opensource/overview - Free Jira etc for Open Source projects
    * https://kanbanflow.com/ - Board based project management. Free (premium version with more options).
@@ -313,9 +319,10 @@ Table of Contents
    * https://www.aerofs.com/ - P2P file syncing, free for up to 30 users
    * http://cloudinary.com - Image upload, powerful manipulations, storage, and delivery for sites and apps, with libraries for Ruby, Python, Java, PHP, Objective-C and more. Perpetual free tier includes 7500 images/month, 2gb storage, 5gb bandwidth.
    * https://plot.ly - graph and share your data. Free tier includes unlimited public files and 10 private files.
-   * https://transloadit.com - Handles file uploads & encoding of video, audio, images, documents. Free for open source & other do-gooders. Commercial applications get the first GB free for testdriving.
+   * https://transloadit.com - Handles file uploads & encoding of video, audio, images, documents. Free for open source & other do-gooders. Commercial applications get the first GB free for test driving.
    * https://podio.com/ - You can use Podio with a team of up to five people and try out the features of the Basic Plan - except User Management.
    * https://shrinkray.io - free image optimization of Github repos
+   * https://www.cine.io - Scalable video broadcasting and p2p real-time video chat for iOS, Android, and web. Free tiers available for developers.
 
 ## Data Visualization on Maps
    
@@ -339,6 +346,7 @@ Table of Contents
    * https://wakatime.com - quantified self metrics about your coding activity, using text editor plugins - Limited plan for free.
    * https://codenvy.com/ - IDE in a browser, collaborative, git integration, build and run your app in customizable Docker-based runners (free 512Mb RAM to distribute between you runners), pre-integrated deploy to Google Apps.
    * https://apiary.io/ - Collaborative design API with instant API mock and generated documentation (Free for unlimited API blueprints and unlimited user with one admin account and hosted documentation)
+   * https://www.mockable.io/ - Mockable is a simple configurable service to mock out RESTful API or SOAP web-services. This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.   
    * https://www.jetbrains.com/products.html - Productivity tools, IDEs and deploy tools. Free license for students, teachers, open source projects, and user groups.
    * https://readme.io/ - Beautiful documentations made easy - free for Open Source
    * https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx - Visual Studio. Not only for Windows and .NET
@@ -356,11 +364,11 @@ Table of Contents
 
 
 ## International Mobile number verification API and SDK
- * https://www.cognalys.com - Freemium mobile number verification through an innovative and relaible  method than using SMS gateway. Free accounts will have 70 Tries and 50 verifications per day .  {[Signup](https://www.cognalys.com/signup/1)}
+ * https://www.cognalys.com - Freemium mobile number verification through an innovative and reliable method than using SMS gateway. Free accounts will have 70 Tries and 50 verifications per day. {[Signup](https://www.cognalys.com/signup/1)}
 
 ## Payment / Billing Integration
 
- * https://www.braintreepayments.com - Credit Card, Paypal, Venmo, Bitcoin, Apple Pay (, ...) integration. Single and Recurrent Payments. First $ 50.000 are free of charge.
+ * https://www.braintreepayments.com - Credit Card, Paypal, Venmo, Bitcoin, Apple Pay (, ...) integration. Single and Recurrent Payments. First $50 are free of charge.
 
 ## Other Packs
 
